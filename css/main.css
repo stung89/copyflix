@@ -1,0 +1,396 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.continueToWatch {
+	background: #161317;
+	color: white;
+	padding-left: 10px;
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+#header {
+	background: #000;
+	color: white;
+	padding: 0 25px;
+	display: inline-block;
+	width: 100%;
+	height: 56px;
+}
+
+#header .simple span:hover, .dropdown.icon:hover {
+	color: red;
+}
+
+#header .simple.ui.dropdown:hover {
+	color: #3C3640;
+}
+
+.logo {
+	background: red;
+	display: inline-block;
+	margin-right: 25px; 
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.leftMenu {
+	display: inline-block;
+}
+
+.rightMenu {
+	display: inline-block;
+	float: right;
+}
+
+.rightMenu ul li {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.rightMenu ul li a {
+	color: white;
+}
+
+.rightMenu ul li a:hover {
+	color: red;
+}
+
+.trailer-button {
+	display: inline-block;
+	color: #ffffff;
+	background: #000000;
+	padding: 12px 20px;
+	cursor: pointer;
+}
+
+.myList-button {
+	display: inline-block;
+	color: #ffffff;
+	padding: 10px 18px;
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+.trailer-button:hover {
+	background: rgba(0,0,0,0.6);
+	padding: 10px 18px;
+	border: 2px solid rgba(0,0,0,0.6);
+}
+.myList-button:hover {
+	background: rgba(0,0,0,0.6);
+	border: 2px solid rgba(0,0,0,0.6);
+}
+
+#largeImage {
+	padding: 300px 25px;
+	background: -webkit-linear-gradient(45deg, rgba(234, 31, 17, .5) 0%,#000000 100%),
+	url(http://i.imgur.com/GnYpoDn.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.description-box {
+	width: 50%;
+}
+
+.description-box h1 {
+	font-size: 4em;
+	color: white;
+	font-weight: bold;
+}
+
+.description-box h3 {
+	font-size: 2em;
+	color: white;
+}
+
+.description-box h4 {
+	color: white;
+}
+
+.description-box p {
+	color: white;
+	margin: 25px 0;
+}
+
+.contain {
+	display: inline-block;
+	min-width: 200px;
+}
+
+div.ui.compact.menu {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.ui.dropdown .menu {
+	background: #3C3640;
+	border-radius: 10;
+	box-shadow: 0px 2px 0px 0px;
+}
+
+.ui.dropdown .menu .item {
+	color: #fff;
+	height: 40px;
+}
+
+.ui.dropdown .menu .item:hover {
+	background: #1F1C21;
+	color: red;
+}
+
+#videoSection {
+	width: 100%;
+	background: #161317;
+}
+
+.row {
+	width: 100%;
+	font-size: 0;
+}
+
+.videoBoxes {
+	width: 350px;
+	display: inline-block;
+	background: red;
+	min-height: 170px;
+	font-size: 16px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.videoBoxes2 {
+	width: 130px;
+	display: inline-block;
+	background: red;
+	min-height: 170px;
+	font-size: 16px;
+	margin: 0;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.video1 {
+	background: url(https://i.pinimg.com/originals/35/5d/65/355d65da2e1dc28b3399951765bc5fb1.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video2 {
+	background: url(https://comicsagogo.files.wordpress.com/2011/11/tintin-movie-poster-horizontal.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video3 {
+	background: url(https://garankin5.files.wordpress.com/2013/09/b4eafaa391a4c65bedd99452b009065f.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video4 {
+	background: url(https://www.heyuguys.com/images/2015/10/star-wars-the-force-awakens-poster-landscape.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video5 {
+	background: url(http://pop-critica.com/wp-content/uploads/2013/04/doctor-who-nightmare-in-silver-poster-horizontal.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video6 {
+	background: url(https://i.pinimg.com/originals/6b/49/36/6b4936539505cda04d88994bc31013de.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video7 {
+	background: url(http://www.dadsbigplan.com/wp-content/uploads/2012/05/the-avengers-horizontal-poster.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video8 {
+	background: url(http://www.blast-o-rama.com/wp-content/uploads/2008/04/dark-knight-intl-poster-2.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video9 {
+	background: url(http://www.nbparks.org/wp-content/uploads/2017/04/rogue_one_horizontal-image-1000x563.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video10 {
+	background: url(http://cdn.collider.com/wp-content/uploads/inception_movie_poster_banner_01.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video11 {
+	background: url(https://qph.ec.quoracdn.net/main-qimg-1f7d7ca14a61615a35d0f0ecf1522a65-c) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video12 {
+	background: url(https://i.pinimg.com/originals/e0/22/44/e022444fe6dfb28c8c83e68d277ee875.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video13 {
+	background: url(http://img.myconfinedspace.com/wp-content/uploads/2011/01/tron-legacy-vertical-movie-poster.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video14 {
+	background: url(https://qph.ec.quoracdn.net/main-qimg-a7fd5ffa58ba417bdb26c28e5d85d693-c) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video15 {
+	background: url(http://vignette4.wikia.nocookie.net/harrypotter/images/d/df/Harry-potter-and-the-deathly-hallows-part-2-movie-poster-01.jpg/revision/latest?cb=20120425114345) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video16 {
+	background: url(http://www.universalexports.net/Movies/Graphics/24-posters/spectre-teaser-poster.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video17 {
+	background: url(https://qph.ec.quoracdn.net/main-qimg-1f7d7ca14a61615a35d0f0ecf1522a65-c) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video18 {
+	background: url(http://www.universalexports.net/Movies/Graphics/24-posters/spectre-teaser-poster.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.video19 {
+	background: url(https://qph.ec.quoracdn.net/main-qimg-1f7d7ca14a61615a35d0f0ecf1522a65-c) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.videoBoxes h4 {
+	color: white;
+	font-size: 16px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.modal-container {
+	display: none;
+	box-sizing: border-box;
+	position: fixed;
+	background:	rgba(0,0,0,0.7);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-container.active {
+	display: block;
+}
+
+.modal {
+	box-sizing: border-box;
+	margin: 100px auto;
+	width: 500px;
+	height: 600px;
+	padding: 15px;
+}
+
+.modal img {
+	width: 100%;
+}
+.videoBoxes .fa-play {
+	display: inline-block;
+	font-size: 5em;
+	color: white;
+	opacity: .5;
+	padding-top: 50px;
+}
+
+i.fa.fa-play:hover {
+	opacity: 0.9;
+}
+
+.container {
+	text-align: center;
+	height: 170px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+/*MEDIA QUERIES!!!!!!!!@!@!@!@!@!*/
+@media screen and (max-width: 780px) {
+	.videoBoxes h4 {
+		font-size: 16px;
+		width: 100px;
+	}
+}
